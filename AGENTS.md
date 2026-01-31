@@ -1,0 +1,4 @@
+- Use `uv` to install packages.
+- Logically split the code to separated files. Avoid long files.
+- Store configurations in the `configs/config.yaml` file.
+- Use `pydantic` for configs and all other data structures.

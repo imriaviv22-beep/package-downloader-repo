@@ -1,0 +1,26 @@
+paths:
+  offsets_dir: data/offsets
+  output_dir: data/output
+  temp_dir: data/temp
+  errors_dir: data/errors
+
+download:
+  batch_size: 50
+  max_workers: 8
+  fail_fast: false
+  verify_hash: true
+
+input:
+  has_header: true
+
+pypi:
+  cache_size: 10000
+
+maven:
+  registries:
+    - https://repo1.maven.org/maven2
+    - https://maven.google.com
+    - https://packages.confluent.io/maven
+    - https://www.ebi.ac.uk/spot/nexus/repository/maven-public
+    - https://repository.cloudera.com/artifactory/libs-release-local
+    - https://plugins.gradle.org/m2
